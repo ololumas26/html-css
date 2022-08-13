@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir o site em vários dipositivos diferentes</p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="images/m.png" type="image/png">
+        <img src="images/g.png" alt="Grande">
+    </picture>
+
+    <h1>Audios</h1>
+    <p>Let´s Reproduce audio</p>
+    <audio src="media/Drip Marrom.mp3" controls autoplay></audio>
+    <!--FORMATOS VÁLIDOS -->
+
+    <audio preload="auto" autoplay>
+        <source src="media/Drip Marrom.mp3" type="audio/mpeg">
+        <source src="media/Drip Marrom.mp3" type="audio/ogg">
+        <source src="media/Drip Marrom.mp3" type="wav">
+        <p>Seu navegador não consegue repoduzir esse arquivo.
+            <a href="media/Drip Marrom.mp3">Clique aqui para descaregar 
+                o áudio
+            </a>
+        </p>
+    </audio>
+    
+</body>
+</html>

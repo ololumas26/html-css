@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/*
+    O que é id em Html 
+
+*/
+
+body{
+    background-color: rgb(205, 255, 203);
+}
+h1{
+    color:rgb(4, 109, 0)
+}
+h1#principal{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+h2{
+    color:rgb(73, 109, 71)
+}
+
+.basico{
+    color: rgb(14, 94, 94);
+}
+.intermedio{
+    color: brown;
+}
+
+.avancado{
+    color: blue ;
+}
